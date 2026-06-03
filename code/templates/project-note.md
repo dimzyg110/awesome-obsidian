@@ -1,0 +1,35 @@
+---
+date: <% tp.date.now("YYYY-MM-DD") %>
+type: project
+status: active
+company: 
+due: 
+tags: [project]
+---
+
+# <% tp.file.title %>
+
+**Status:** active <%* /* active | on-hold | done */ %>
+**Company / client:** 
+**Started:** <% tp.date.now("YYYY-MM-DD") %>
+**Target date:** 
+
+## 🎯 Goal / outcome
+<% tp.file.cursor() %>
+
+## 📋 Tasks
+- [ ] 
+
+## 🤝 Related meetings
+```dataview
+TABLE date AS "Date", company AS "Company"
+FROM #meeting
+WHERE contains(string(project), this.file.name)
+SORT date DESC
+```
+
+## 📝 Notes & decisions
+- 
+
+## 🔗 Resources
+- 

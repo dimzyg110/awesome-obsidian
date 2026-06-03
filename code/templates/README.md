@@ -17,6 +17,7 @@ Ready-to-use [Templater](https://github.com/SilentVoid13/Templater) templates fo
 | [`daily-note.md`](daily-note.md) | `#daily` | Dated journal with auto yesterday/tomorrow links, focus, tasks, meetings and an end-of-day review. |
 | [`meeting-note.md`](meeting-note.md) | `#meeting` | Structured meeting note with attendees, decisions and action items (tasks). |
 | [`weekly-review.md`](weekly-review.md) | `#weekly` | Rolls up the week's daily notes, completed tasks and open items for a review. |
+| [`project-note.md`](project-note.md) | `#project` | One note per project with a `status:` field; populates the dashboard's *Active projects* view and lists its related meetings. |
 
 ## How it fits together
 
