@@ -26,3 +26,10 @@ Ready-to-use [Templater](https://github.com/SilentVoid13/Templater) templates fo
 - The `week:` frontmatter (ISO week, e.g. `2026-W23`) links daily notes to their weekly review.
 
 Add due dates and priority to tasks with Tasks-plugin syntax, e.g. `- [ ] Call supplier 📅 2026-06-10 🔼`.
+
+## Troubleshooting
+
+- **Template files showing up as real notes/tasks.** The templates carry tags (`#daily`, `#meeting`, `#project`) and empty `- [ ]` lines, so Dataview will index them unless excluded. All queries here use `FROM -"Templates"` to scope them out — keep your templates in a folder named `Templates`. As a belt-and-suspenders measure, also add `Templates` under **Dataview settings → Exclude folders**.
+- **"Completed this week" is empty.** That query filters by completion *date*, which only exists when a task is marked done with a `✅ YYYY-MM-DD` stamp. Install the **Tasks** plugin (it adds the done-date automatically) or add the stamp by hand.
+- **Daily note shows raw `<% ... %>` text.** Templater isn't firing on creation — enable *Trigger Templater on new file creation*, and point Daily Notes at the same template file.
+- **Dashboard blocks blank.** Enable Dataview and turn on *Enable JavaScript Queries* in its settings.

@@ -23,7 +23,7 @@ tags: [project]
 ## 🤝 Related meetings
 ```dataview
 TABLE date AS "Date", company AS "Company"
-FROM #meeting
+FROM #meeting AND -"Templates"
 WHERE contains(string(project), this.file.name)
 SORT date DESC
 ```
