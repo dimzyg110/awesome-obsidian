@@ -7,7 +7,7 @@ tags: [weekly]
 
 # Weekly Review — <% tp.date.now("GGGG-[W]WW") %>
 
-Week of <% tp.date.now("MMMM Do") %> → <% tp.date.now("MMMM Do", 6) %>
+Week of <% tp.date.now("MMMM Do", 1 - parseInt(tp.date.now("E"))) %> → <% tp.date.now("MMMM Do", 7 - parseInt(tp.date.now("E"))) %>
 
 ## 📆 This week's daily notes
 ```dataview
@@ -22,7 +22,7 @@ SORT date ASC
 ```dataview
 TASK
 FROM -"Templates"
-WHERE completed AND completion >= this.file.day - dur(6 days) AND completion <= this.file.day
+WHERE completed AND completion AND dateformat(completion, "kkkk-'W'WW") = this.week
 GROUP BY file.link
 ```
 
