@@ -3,7 +3,7 @@
 This is a ready-to-run vault for a daily-journal + task + project workflow.
 
 ## 1. Open it
-In Obsidian: **Open folder as vault** → pick this `Obsidian-Starter-Vault` folder. Say **Trust author and enable plugins** if asked.
+In Obsidian: **Open folder as vault** → select this `code/starter-vault` folder from the repo (or copy it out and rename it to whatever you like first).
 
 ## 2. Install 3 community plugins
 **Settings → Community plugins → Turn on community plugins → Browse**, then install + enable:
@@ -16,7 +16,7 @@ Also enable the core **Daily Notes** plugin (Settings → Core plugins).
 ## 3. Point the plugins at the folders
 - **Templater** → *Template folder location* = `Templates`. Turn ON *Trigger Templater on new file creation*.
 - **Daily Notes** → *Template file location* = `Templates/Daily Note`; *New file location* = `Journal/Daily`.
-- **Dataview** → turn ON *Enable JavaScript Queries*.
+- **Dataview** → no extra settings needed (all blocks use plain DQL; leave *JavaScript Queries* OFF).
 
 ## 4. Use it
 - Press the **Daily Note** ribbon icon (calendar) each morning → today's journal is created from the template.

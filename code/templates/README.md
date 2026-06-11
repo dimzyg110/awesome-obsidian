@@ -8,7 +8,8 @@ Ready-to-use [Templater](https://github.com/SilentVoid13/Templater) templates fo
 2. Copy these `.md` files into a `Templates/` folder in your vault.
 3. **Templater settings** → set *Template folder location* to `Templates`. Enable *Trigger Templater on new file creation*.
 4. **Daily Notes settings** → set *Template file location* to `Templates/daily-note` and choose where new daily notes are stored (e.g. `Journal/Daily`).
-5. **Dataview settings** → enable *JavaScript Queries* (used by some dashboard blocks).
+
+All dashboard and template blocks use plain Dataview **DQL** (no `dataviewjs`), so you do **not** need to enable *JavaScript Queries* — leaving it off keeps the vault safer.
 
 ## Templates
 
@@ -32,4 +33,4 @@ Add due dates and priority to tasks with Tasks-plugin syntax, e.g. `- [ ] Call s
 - **Template files showing up as real notes/tasks.** The templates carry tags (`#daily`, `#meeting`, `#project`) and empty `- [ ]` lines, so Dataview will index them unless excluded. All queries here use `FROM -"Templates"` to scope them out — keep your templates in a folder named `Templates`. As a belt-and-suspenders measure, also add `Templates` under **Dataview settings → Exclude folders**.
 - **"Completed this week" is empty.** That query filters by completion *date*, which only exists when a task is marked done with a `✅ YYYY-MM-DD` stamp. Install the **Tasks** plugin (it adds the done-date automatically) or add the stamp by hand.
 - **Daily note shows raw `<% ... %>` text.** Templater isn't firing on creation — enable *Trigger Templater on new file creation*, and point Daily Notes at the same template file.
-- **Dashboard blocks blank.** Enable Dataview and turn on *Enable JavaScript Queries* in its settings.
+- **Dashboard blocks blank.** Make sure the **Dataview** plugin is enabled, then reload Obsidian (`Ctrl/Cmd+R`) so it indexes the vault.
