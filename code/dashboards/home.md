@@ -37,6 +37,14 @@ WHERE nextreview AND nextreview <= date(today) + dur(14 days)
 SORT nextreview ASC
 ```
 
+## ⚖️ Open compliance actions
+```dataview
+TABLE area AS "Area", status AS "Status", due AS "Due", owner AS "Owner"
+FROM #compliance AND -"Templates"
+WHERE status != "closed"
+SORT due ASC
+```
+
 ---
 
 ## 🗂️ Work dashboard

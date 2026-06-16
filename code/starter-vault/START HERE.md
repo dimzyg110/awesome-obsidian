@@ -43,10 +43,13 @@ People/                contacts (#person)
 References/            web clips & research (#reference)
 SOPs/                  standard operating procedures (#sop)
 Inventory/             stock items (#inventory)
+Purchase Orders/       POs linked to suppliers (#po)
+Compliance/            audit / compliance log (#compliance)
 Inbox/                 quick capture, triaged from Home
 🏠 Home.md             command center (embeds the dashboards)
 🏠 Dashboard.md        work dashboard
 👥 CRM Dashboard.md    people & companies
-📦 Inventory Dashboard.md  low stock & by location
+📦 Inventory Dashboard.md  low stock, POs & by location
+📱 Mobile Home.md      lightweight phone view
 Projects Board.md      Kanban board (needs the Kanban plugin)
 ```

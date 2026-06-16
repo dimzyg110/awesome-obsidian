@@ -13,6 +13,14 @@ WHERE quantity <= reorder
 SORT quantity ASC
 ```
 
+## 🧾 Open purchase orders
+```dataview
+TABLE supplier AS "Supplier", status AS "Status", expected AS "Expected", total AS "Total"
+FROM #po AND -"Templates"
+WHERE status != "received"
+SORT expected ASC
+```
+
 ## 📋 All stock by location
 ```dataview
 TABLE quantity AS "On hand", reorder AS "Reorder at", sku AS "SKU"

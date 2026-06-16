@@ -25,8 +25,10 @@ All dashboard and template blocks use plain Dataview **DQL** (no `dataviewjs`), 
 | [`reference-note.md`](reference-note.md) | `#reference` | A web-clip / research note with source and key points. |
 | [`sop-note.md`](sop-note.md) | `#sop` | A standard operating procedure with owner, status and review dates. |
 | [`inventory-item.md`](inventory-item.md) | `#inventory` | A stock item with SKU, location, quantity, reorder level and supplier. |
+| [`purchase-order.md`](purchase-order.md) | `#po` | A purchase order linked to a supplier; open POs surface on the inventory dashboard. |
+| [`compliance-log.md`](compliance-log.md) | `#compliance` | A compliance/audit entry with area, owner, due date and corrective action. |
 
-Dashboards live in [`../dashboards/`](../dashboards): the work dashboard, [`crm-dashboard.md`](../dashboards/crm-dashboard.md), [`inventory-dashboard.md`](../dashboards/inventory-dashboard.md) (low-stock / by-location) and [`home.md`](../dashboards/home.md) — a command-center that embeds the others plus an inbox-triage and SOP-review view. A Kanban board lives in [`../boards/projects-board.md`](../boards/projects-board.md) (needs the **Kanban** community plugin).
+Dashboards live in [`../dashboards/`](../dashboards): the work dashboard, [`crm-dashboard.md`](../dashboards/crm-dashboard.md), [`inventory-dashboard.md`](../dashboards/inventory-dashboard.md) (low-stock / by-location) and [`home.md`](../dashboards/home.md) — a command-center that embeds the others plus an inbox-triage and SOP-review view. A Kanban board lives in [`../boards/projects-board.md`](../boards/projects-board.md) (needs the **Kanban** community plugin). There's also a lightweight [`mobile-home.md`](../dashboards/mobile-home.md) for phones (no embedded dashboards).
 
 The CRM templates (`person`, `company`) pair with a second dashboard, [`../dashboards/crm-dashboard.md`](../dashboards/crm-dashboard.md). Link records together by setting a meeting/project/person's `company:` field to the **exact file name** of the company note, and by mentioning people with `[[Their Name]]`.
 
