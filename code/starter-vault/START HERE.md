@@ -29,16 +29,24 @@ The `Example Project` and example meeting are just demo data so the dashboard is
 ## Styling (already on)
 Five CSS snippets ship pre-enabled in `.obsidian/snippets/`: nicer (round) checkboxes, tag pills, stylish blockquotes, a slimmer scrollbar and an auto-fading UI. Toggle any of them in **Settings → Appearance → CSS snippets**.
 
+For the **Projects Board** (Kanban), also install the **Kanban** community plugin.
+
 ## Folders
 ```
-Templates/          the note templates
-Journal/Daily/      daily notes land here
-Journal/Weekly/     weekly reviews
-Meetings/           meeting notes
-Projects/           one note per project (#project + status:)
-Companies/          suppliers / clients / partners (#company)
-People/             contacts (#person)
-References/         web clips & research (#reference)
-🏠 Dashboard.md     work home base
-👥 CRM Dashboard.md people & companies
+Templates/             the note templates
+Journal/Daily/         daily notes land here
+Journal/Weekly/        weekly reviews
+Meetings/              meeting notes
+Projects/              one note per project (#project + status:)
+Companies/             suppliers / clients / partners (#company)
+People/                contacts (#person)
+References/            web clips & research (#reference)
+SOPs/                  standard operating procedures (#sop)
+Inventory/             stock items (#inventory)
+Inbox/                 quick capture, triaged from Home
+🏠 Home.md             command center (embeds the dashboards)
+🏠 Dashboard.md        work dashboard
+👥 CRM Dashboard.md    people & companies
+📦 Inventory Dashboard.md  low stock & by location
+Projects Board.md      Kanban board (needs the Kanban plugin)
 ```
