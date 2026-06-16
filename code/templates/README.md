@@ -29,6 +29,8 @@ All dashboard and template blocks use plain Dataview **DQL** (no `dataviewjs`), 
 | [`compliance-log.md`](compliance-log.md) | `#compliance` | A compliance/audit entry with area, owner, due date and corrective action. |
 | [`batch-note.md`](batch-note.md) | `#batch` | A lot/batch with expiry and quarantine/released/recalled status for traceability. |
 | [`ops-report.md`](ops-report.md) | `#opsreport` | A weekly leadership snapshot: reorders, open POs, compliance, expiring batches, projects. |
+| [`recall-note.md`](recall-note.md) | `#recall` | A recall that links affected `[[BATCH-…]]` lots; open recalls surface on Home, and each batch lists the recalls referencing it. |
+| [`stock-movement.md`](stock-movement.md) | `#movement` | An in/out/adjust stock movement linked to an item; feeds the item's movement history and the inventory dashboard. |
 
 Company (supplier) notes include an on-time delivery scorecard driven by each PO's `expected` vs `received` date.
 

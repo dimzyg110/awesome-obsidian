@@ -25,3 +25,11 @@ tags: [batch]
 
 ## 📝 Notes
 <% tp.file.cursor() %>
+
+## ⚠️ Recalls referencing this batch
+```dataview
+LIST
+FROM #recall AND -"Templates"
+WHERE contains(file.outlinks, this.file.link)
+SORT file.mtime DESC
+```

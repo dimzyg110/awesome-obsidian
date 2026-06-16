@@ -1,0 +1,32 @@
+---
+type: moc
+tags: [moc]
+---
+
+# 📇 Index — Map of Content
+
+## 🧭 Dashboards
+- [[🏠 Home]] — command center (embeds the work & CRM dashboards)
+- [[🏠 Dashboard]] — tasks & projects
+- [[👥 CRM Dashboard]] — people & companies
+- [[📦 Inventory Dashboard]] — stock, POs, batches, movements
+- [[📱 Mobile Home]] — lightweight phone view
+- [[Projects Board]] — Kanban
+
+## 📊 Records by type
+```dataview
+TABLE length(rows) AS "Count"
+FROM -"Templates"
+WHERE type
+GROUP BY type AS "Type"
+SORT length(rows) DESC
+```
+
+## 🕗 Recently edited
+```dataview
+TABLE type AS "Type", file.mtime AS "Modified"
+FROM -"Templates"
+WHERE type != "daily"
+SORT file.mtime DESC
+LIMIT 15
+```

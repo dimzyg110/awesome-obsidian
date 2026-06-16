@@ -22,3 +22,11 @@ tags: [inventory]
 
 ## 📝 Notes
 <% tp.file.cursor() %>
+
+## 🔁 Movement history
+```dataview
+TABLE direction AS "Dir", quantity AS "Qty", date AS "Date", reason AS "Reason"
+FROM #movement AND -"Templates"
+WHERE contains(string(item), this.file.name)
+SORT date DESC
+```

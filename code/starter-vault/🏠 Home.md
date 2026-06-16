@@ -45,6 +45,14 @@ WHERE status != "closed"
 SORT deadline ASC
 ```
 
+## ⚠️ Open recalls
+```dataview
+TABLE severity AS "Severity", status AS "Status", owner AS "Owner"
+FROM #recall AND -"Templates"
+WHERE status != "closed"
+SORT file.mtime DESC
+```
+
 ---
 
 ## 🗂️ Work dashboard

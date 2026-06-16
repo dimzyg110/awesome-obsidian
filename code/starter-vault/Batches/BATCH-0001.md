@@ -25,3 +25,11 @@ tags: [batch]
 
 ## 📝 Notes
 Demo batch (expiring within 30 days + quarantined → shows on Inventory dashboard). Delete once real.
+
+## ⚠️ Recalls referencing this batch
+```dataview
+LIST
+FROM #recall AND -"Templates"
+WHERE contains(file.outlinks, this.file.link)
+SORT file.mtime DESC
+```

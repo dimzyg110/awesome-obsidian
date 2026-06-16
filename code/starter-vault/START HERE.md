@@ -45,8 +45,11 @@ SOPs/                  standard operating procedures (#sop)
 Inventory/             stock items (#inventory)
 Purchase Orders/       POs linked to suppliers (#po)
 Batches/               lot / batch traceability (#batch)
+Recalls/               recalls linked to batches (#recall)
+Movements/             stock in/out/adjust log (#movement)
 Compliance/            audit / compliance log (#compliance)
 Inbox/                 quick capture, triaged from Home
+📇 Index.md            map of content (all dashboards & record types)
 🏠 Home.md             command center (embeds the dashboards)
 🏠 Dashboard.md        work dashboard
 👥 CRM Dashboard.md    people & companies

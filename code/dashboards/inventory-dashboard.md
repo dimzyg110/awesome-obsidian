@@ -37,6 +37,14 @@ WHERE status = "quarantine"
 SORT received ASC
 ```
 
+## 🔁 Recent stock movements
+```dataview
+TABLE item AS "Item", direction AS "Dir", quantity AS "Qty", reason AS "Reason"
+FROM #movement AND -"Templates"
+SORT date DESC
+LIMIT 15
+```
+
 ## 📋 All stock by location
 ```dataview
 TABLE quantity AS "On hand", reorder AS "Reorder at", sku AS "SKU"
