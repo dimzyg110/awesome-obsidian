@@ -4,6 +4,7 @@ supplier:
 status: draft
 ordered: 
 expected: 
+received: 
 total: 0
 tags: [po]
 ---
@@ -14,6 +15,7 @@ tags: [po]
 **Status:** draft <%* /* draft | ordered | received */ %>
 **Ordered:** 
 **Expected:** 
+**Received:** 
 **Total:** 
 
 ## 📦 Line items

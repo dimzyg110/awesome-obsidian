@@ -27,6 +27,10 @@ All dashboard and template blocks use plain Dataview **DQL** (no `dataviewjs`), 
 | [`inventory-item.md`](inventory-item.md) | `#inventory` | A stock item with SKU, location, quantity, reorder level and supplier. |
 | [`purchase-order.md`](purchase-order.md) | `#po` | A purchase order linked to a supplier; open POs surface on the inventory dashboard. |
 | [`compliance-log.md`](compliance-log.md) | `#compliance` | A compliance/audit entry with area, owner, due date and corrective action. |
+| [`batch-note.md`](batch-note.md) | `#batch` | A lot/batch with expiry and quarantine/released/recalled status for traceability. |
+| [`ops-report.md`](ops-report.md) | `#opsreport` | A weekly leadership snapshot: reorders, open POs, compliance, expiring batches, projects. |
+
+Company (supplier) notes include an on-time delivery scorecard driven by each PO's `expected` vs `received` date.
 
 Dashboards live in [`../dashboards/`](../dashboards): the work dashboard, [`crm-dashboard.md`](../dashboards/crm-dashboard.md), [`inventory-dashboard.md`](../dashboards/inventory-dashboard.md) (low-stock / by-location) and [`home.md`](../dashboards/home.md) — a command-center that embeds the others plus an inbox-triage and SOP-review view. A Kanban board lives in [`../boards/projects-board.md`](../boards/projects-board.md) (needs the **Kanban** community plugin). There's also a lightweight [`mobile-home.md`](../dashboards/mobile-home.md) for phones (no embedded dashboards).
 

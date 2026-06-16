@@ -21,6 +21,22 @@ WHERE status != "received"
 SORT expected ASC
 ```
 
+## 🧬 Batches expiring soon (next 30 days)
+```dataview
+TABLE product AS "Product", quantity AS "Qty", expiry AS "Expiry", status AS "Status"
+FROM #batch AND -"Templates"
+WHERE expiry AND expiry <= date(today) + dur(30 days) AND status != "recalled"
+SORT expiry ASC
+```
+
+## 🚧 Batches in quarantine
+```dataview
+TABLE product AS "Product", quantity AS "Qty", received AS "Received"
+FROM #batch AND -"Templates"
+WHERE status = "quarantine"
+SORT received ASC
+```
+
 ## 📋 All stock by location
 ```dataview
 TABLE quantity AS "On hand", reorder AS "Reorder at", sku AS "SKU"

@@ -44,6 +44,7 @@ References/            web clips & research (#reference)
 SOPs/                  standard operating procedures (#sop)
 Inventory/             stock items (#inventory)
 Purchase Orders/       POs linked to suppliers (#po)
+Batches/               lot / batch traceability (#batch)
 Compliance/            audit / compliance log (#compliance)
 Inbox/                 quick capture, triaged from Home
 🏠 Home.md             command center (embeds the dashboards)
