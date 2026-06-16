@@ -4,7 +4,7 @@ type: compliance
 area: 
 status: open
 owner: 
-due: 
+deadline: 
 tags: [compliance]
 ---
 

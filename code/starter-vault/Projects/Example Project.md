@@ -2,7 +2,7 @@
 type: project
 status: active
 company: Example Co
-due: 2026-06-30
+target: 2026-06-30
 tags: [project]
 ---
 

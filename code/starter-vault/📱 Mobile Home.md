@@ -34,8 +34,8 @@ SORT quantity ASC
 
 ## ⚖️ Open compliance actions
 ```dataview
-TABLE status AS "Status", due AS "Due"
+TABLE status AS "Status", deadline AS "Due"
 FROM #compliance AND -"Templates"
 WHERE status != "closed"
-SORT due ASC
+SORT deadline ASC
 ```

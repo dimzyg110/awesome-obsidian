@@ -39,10 +39,10 @@ SORT nextreview ASC
 
 ## ⚖️ Open compliance actions
 ```dataview
-TABLE area AS "Area", status AS "Status", due AS "Due", owner AS "Owner"
+TABLE area AS "Area", status AS "Status", deadline AS "Due", owner AS "Owner"
 FROM #compliance AND -"Templates"
 WHERE status != "closed"
-SORT due ASC
+SORT deadline ASC
 ```
 
 ---

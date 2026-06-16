@@ -4,7 +4,7 @@ type: compliance
 area: Receiving
 status: open
 owner: Warehouse Lead
-due: 2026-06-22
+deadline: 2026-06-22
 tags: [compliance]
 ---
 
