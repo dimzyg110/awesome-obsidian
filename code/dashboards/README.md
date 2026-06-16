@@ -7,8 +7,10 @@ These are **reference copies** of the dashboards. Their internal `[[wikilinks]]`
 | `dashboard.md` | `🏠 Dashboard` |
 | `crm-dashboard.md` | `👥 CRM Dashboard` |
 | `inventory-dashboard.md` | `📦 Inventory Dashboard` |
+| `orders-dashboard.md` | `📊 Orders Dashboard` |
 | `home.md` | `🏠 Home` |
 | `mobile-home.md` | `📱 Mobile Home` |
+| `index.md` | `📇 Index` |
 | `../boards/projects-board.md` | `Projects Board` |
 
 ➡️ **For a working setup, use the assembled vault in [`../starter-vault/`](../starter-vault)** — there each file already carries the name in the right-hand column, so the Home navigation and embeds resolve out of the box.
