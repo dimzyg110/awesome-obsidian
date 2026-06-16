@@ -5,7 +5,7 @@ tags: [home]
 
 # 🏠 Home
 
-**Jump to:** [[🏠 Dashboard|Work]] · [[👥 CRM Dashboard|CRM]] · [[📦 Inventory Dashboard|Inventory]] · [[Projects Board|Kanban]]
+**Jump to:** [[🏠 Dashboard|Work]] · [[👥 CRM Dashboard|CRM]] · [[📦 Inventory Dashboard|Inventory]] · [[📊 Orders Dashboard|Orders]] · [[Projects Board|Kanban]]
 
 ## 📥 Inbox to triage
 Capture anywhere with a `#inbox` task, or drop a note in the `Inbox/` folder.

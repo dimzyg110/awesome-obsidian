@@ -57,6 +57,7 @@ Meta/                  setup checklist (excluded from dashboards)
 🏠 Dashboard.md        work dashboard
 👥 CRM Dashboard.md    people & companies
 📦 Inventory Dashboard.md  low stock, POs & by location
+📊 Orders Dashboard.md  POs, sales orders & returns by status
 📱 Mobile Home.md      lightweight phone view
 Projects Board.md      Kanban board (needs the Kanban plugin)
 ```

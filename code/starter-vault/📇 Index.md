@@ -10,6 +10,7 @@ tags: [moc]
 - [[🏠 Dashboard]] — tasks & projects
 - [[👥 CRM Dashboard]] — people & companies
 - [[📦 Inventory Dashboard]] — stock, POs, batches, movements
+- [[📊 Orders Dashboard]] — POs, sales orders & returns by status
 - [[📱 Mobile Home]] — lightweight phone view
 - [[Projects Board]] — Kanban
 
