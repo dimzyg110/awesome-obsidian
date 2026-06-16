@@ -45,3 +45,11 @@ FROM #po AND -"Templates"
 WHERE contains(string(supplier), this.file.name)
 SORT expected DESC
 ```
+
+## 📤 Sales orders
+```dataview
+TABLE status AS "Status", ordered AS "Ordered", shipdate AS "Ship date", total AS "Total"
+FROM #so AND -"Templates"
+WHERE contains(string(customer), this.file.name)
+SORT ordered DESC
+```

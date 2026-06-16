@@ -31,6 +31,8 @@ All dashboard and template blocks use plain Dataview **DQL** (no `dataviewjs`), 
 | [`ops-report.md`](ops-report.md) | `#opsreport` | A weekly leadership snapshot: reorders, open POs, compliance, expiring batches, projects. |
 | [`recall-note.md`](recall-note.md) | `#recall` | A recall that links affected `[[BATCH-…]]` lots; open recalls surface on Home, and each batch lists the recalls referencing it. |
 | [`stock-movement.md`](stock-movement.md) | `#movement` | An in/out/adjust stock movement linked to an item; feeds the item's movement history and the inventory dashboard. |
+| [`sales-order.md`](sales-order.md) | `#so` | An outbound order linked to a customer; open orders surface on Home and the inventory dashboard, and each order lists its returns. |
+| [`return-rma.md`](return-rma.md) | `#rma` | A return/RMA linked to its `[[SO-…]]`; open returns surface on Home. |
 
 Company (supplier) notes include an on-time delivery scorecard driven by each PO's `expected` vs `received` date.
 

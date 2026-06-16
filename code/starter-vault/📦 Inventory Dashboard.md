@@ -45,6 +45,14 @@ SORT date DESC
 LIMIT 15
 ```
 
+## 📤 Open sales orders (to fulfil)
+```dataview
+TABLE customer AS "Customer", status AS "Status", shipdate AS "Ship date", total AS "Total"
+FROM #so AND -"Templates"
+WHERE status != "shipped" AND status != "closed"
+SORT shipdate ASC
+```
+
 ## 📋 All stock by location
 ```dataview
 TABLE quantity AS "On hand", reorder AS "Reorder at", sku AS "SKU"

@@ -1,17 +1,17 @@
 ---
 type: company
-category: supplier
+category: client
 status: active
 tags: [company]
 ---
 
-# <% tp.file.title %>
+# Bright Dispensary
 
-**Category:** supplier <%* /* supplier | client | partner */ %>
+**Category:** client
 **Status:** active
 
 ## 📝 Notes
-<% tp.file.cursor() %>
+Demo client (so the CRM dashboard's Clients section and the outbound views populate). Delete once real.
 
 ## 👥 People here
 ```dataview

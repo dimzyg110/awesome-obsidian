@@ -53,6 +53,22 @@ WHERE status != "closed"
 SORT file.mtime DESC
 ```
 
+## 📤 Open sales orders
+```dataview
+TABLE customer AS "Customer", status AS "Status", shipdate AS "Ship date"
+FROM #so AND -"Templates"
+WHERE status != "shipped" AND status != "closed"
+SORT shipdate ASC
+```
+
+## ↩️ Open returns (RMA)
+```dataview
+TABLE customer AS "Customer", status AS "Status", reason AS "Reason"
+FROM #rma AND -"Templates"
+WHERE status != "closed" AND status != "refunded"
+SORT file.mtime DESC
+```
+
 ---
 
 ## 🗂️ Work dashboard

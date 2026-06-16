@@ -47,8 +47,11 @@ Purchase Orders/       POs linked to suppliers (#po)
 Batches/               lot / batch traceability (#batch)
 Recalls/               recalls linked to batches (#recall)
 Movements/             stock in/out/adjust log (#movement)
+Sales Orders/          outbound orders (#so)
+Returns/               returns / RMAs (#rma)
 Compliance/            audit / compliance log (#compliance)
 Inbox/                 quick capture, triaged from Home
+Meta/                  setup checklist (excluded from dashboards)
 📇 Index.md            map of content (all dashboards & record types)
 🏠 Home.md             command center (embeds the dashboards)
 🏠 Dashboard.md        work dashboard

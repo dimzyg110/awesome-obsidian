@@ -8,7 +8,7 @@ tags: [dashboard]
 ## 🔴 Overdue tasks
 ```dataview
 TASK
-FROM -"Templates"
+FROM -"Templates" AND -"Meta"
 WHERE !completed AND due AND due < date(today)
 SORT due ASC
 ```
@@ -16,7 +16,7 @@ SORT due ASC
 ## 📌 Due today & undated open tasks
 ```dataview
 TASK
-FROM -"Templates"
+FROM -"Templates" AND -"Meta"
 WHERE !completed AND (due = date(today) OR !due)
 GROUP BY file.link
 ```
@@ -24,7 +24,7 @@ GROUP BY file.link
 ## 📆 Upcoming (next 7 days)
 ```dataview
 TASK
-FROM -"Templates"
+FROM -"Templates" AND -"Meta"
 WHERE !completed AND due > date(today) AND due <= date(today) + dur(7 days)
 SORT due ASC
 ```
@@ -56,7 +56,7 @@ LIMIT 10
 ## 🕗 Recently edited notes
 ```dataview
 TABLE file.mtime AS "Modified"
-FROM -"Templates"
+FROM -"Templates" AND -"Meta"
 WHERE type != "daily" AND type != "dashboard"
 SORT file.mtime DESC
 LIMIT 10
