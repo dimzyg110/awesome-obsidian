@@ -37,6 +37,14 @@ WHERE status != "done"
 SORT file.mtime DESC
 ```
 
+## 🐌 Stale projects (no update in 14 days)
+```dataview
+TABLE status AS "Status", file.mtime AS "Last touched"
+FROM #project AND -"Templates"
+WHERE status != "done" AND file.mtime < date(today) - dur(14 days)
+SORT file.mtime ASC
+```
+
 ## 🤝 Recent meetings
 ```dataview
 TABLE company AS "Company", project AS "Project", date AS "Date"

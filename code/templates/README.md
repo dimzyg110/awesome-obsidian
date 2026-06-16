@@ -19,6 +19,12 @@ All dashboard and template blocks use plain Dataview **DQL** (no `dataviewjs`), 
 | [`meeting-note.md`](meeting-note.md) | `#meeting` | Structured meeting note with attendees, decisions and action items (tasks). |
 | [`weekly-review.md`](weekly-review.md) | `#weekly` | Rolls up the week's daily notes, completed tasks and open items for a review. |
 | [`project-note.md`](project-note.md) | `#project` | One note per project with a `status:` field; populates the dashboard's *Active projects* view and lists its related meetings. |
+| [`monthly-review.md`](monthly-review.md) | `#monthly` | Month-level roll-up of daily notes, completed tasks and projects touched. |
+| [`person-note.md`](person-note.md) | `#person` | A contact (client/supplier staff) with company, role and links to every note that mentions them. |
+| [`company-note.md`](company-note.md) | `#company` | A supplier/client/partner account; auto-lists its people, meetings and active projects. |
+| [`reference-note.md`](reference-note.md) | `#reference` | A web-clip / research note with source and key points. |
+
+The CRM templates (`person`, `company`) pair with a second dashboard, [`../dashboards/crm-dashboard.md`](../dashboards/crm-dashboard.md). Link records together by setting a meeting/project/person's `company:` field to the **exact file name** of the company note, and by mentioning people with `[[Their Name]]`.
 
 ## How it fits together
 

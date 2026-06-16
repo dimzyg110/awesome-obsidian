@@ -31,10 +31,14 @@ Five CSS snippets ship pre-enabled in `.obsidian/snippets/`: nicer (round) check
 
 ## Folders
 ```
-Templates/        the 4 templates
-Journal/Daily/    daily notes land here
-Journal/Weekly/   weekly reviews
-Meetings/         meeting notes
-Projects/         one note per project (#project + status:)
-🏠 Dashboard.md   your home base
+Templates/          the note templates
+Journal/Daily/      daily notes land here
+Journal/Weekly/     weekly reviews
+Meetings/           meeting notes
+Projects/           one note per project (#project + status:)
+Companies/          suppliers / clients / partners (#company)
+People/             contacts (#person)
+References/         web clips & research (#reference)
+🏠 Dashboard.md     work home base
+👥 CRM Dashboard.md people & companies
 ```
