@@ -14,6 +14,10 @@ tags: [moc]
 - [[📱 Mobile Home]] — lightweight phone view
 - [[Projects Board]] — Kanban
 
+## 📖 Reference
+- [[📖 Vault Guide]] — how the whole system fits together
+- [[✅ Getting Started]] — first-run checklist
+
 ## 📊 Records by type
 ```dataview
 TABLE length(rows) AS "Count"
