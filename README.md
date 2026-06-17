@@ -485,12 +485,8 @@ Most themes should be available through the `Appearance` => `Community themes` i
 | [ArtexJay/Obsidian-CyberGlow](https://github.com/ArtexJay/Obsidian-CyberGlow) | ![Cyber Glow](https://raw.githubusercontent.com/ArtexJay/Obsidian-CyberGlow/master/Screenshot.png "") |
 | [johackim/obsidian-darkyan](https://github.com/johackim/obsidian-darkyan) | ![Darkyan](https://raw.githubusercontent.com/johackim/obsidian-darkyan/master/screenshot.png "") |
 | [mrglitchbyte/obsidian_everforest](https://github.com/mrglitchbyte/obsidian_everforest) | ![Everforest](https://raw.githubusercontent.com/mrglitchbyte/obsidian_everforest/master/dark_v2.png "") |
-| [ZaherAlMajed/Illusion-Theme.md](https://github.com/ZaherAlMajed/Illusion-Theme.md) | ![Illusion](https://raw.githubusercontent.com/ZaherAlMajed/Illusion-Theme.md/master/screenshot.png "") |
 | [tylernguyen/obsidian-horizon](https://github.com/tylernguyen/obsidian-horizon) | ![Horizon](https://raw.githubusercontent.com/tylernguyen/obsidian-horizon/master/assets/preview.png "") |
-| [RuslanGagushin/Tokyo-Night-Obsidian-Theme](https://github.com/RuslanGagushin/Tokyo-Night-Obsidian-Theme) | ![Tokyo Night](https://raw.githubusercontent.com/RuslanGagushin/Tokyo-Night-Obsidian-Theme/master/screenshot.png "") |
-| [nikbrunner/obsidian-deep-work-theme](https://github.com/nikbrunner/obsidian-deep-work-theme) | ![Deep Work](https://raw.githubusercontent.com/nikbrunner/obsidian-deep-work-theme/master/screenshot.png "") |
 | [vanadium23/obsidian-blackbird-theme](https://github.com/vanadium23/obsidian-blackbird-theme) | ![Blackbird](https://raw.githubusercontent.com/vanadium23/obsidian-blackbird-theme/master/images/example.png "") |
-| [kinmury/GoldenCoffeeTheme](https://github.com/kinmury/GoldenCoffeeTheme) | ![Golden Coffee](https://raw.githubusercontent.com/kinmury/GoldenCoffeeTheme/master/Screenshots/Showcase.png "") |
 | [Chrismettal/Obsidian-Behave-dark](https://github.com/Chrismettal/Obsidian-Behave-dark) | ![Behave dark](https://raw.githubusercontent.com/Chrismettal/Obsidian-Behave-dark/master/Screenshot.png "") |
 | [SMUsamaShah/Obsidian-Win98-Edition](https://github.com/SMUsamaShah/Obsidian-Win98-Edition) | ![Obsidian Windows 98 Edition](https://raw.githubusercontent.com/SMUsamaShah/Obsidian-Win98-Edition/master/screenshots/main.png "") |
 | [dogwaddle/lizardmen-zettelkasten](https://github.com/dogwaddle/lizardmen-zettelkasten) | ![Lizardmen Zettelkasten](https://raw.githubusercontent.com/dogwaddle/lizardmen-zettelkasten/master/screenshot.png "") |
