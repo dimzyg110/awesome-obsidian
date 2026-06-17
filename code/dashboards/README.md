@@ -6,6 +6,7 @@ These are **reference copies** of the dashboards. Their internal `[[wikilinks]]`
 | --- | --- |
 | `dashboard.md` | `🏠 Dashboard` |
 | `crm-dashboard.md` | `👥 CRM Dashboard` |
+| `directory.md` | `📒 Directory` |
 | `inventory-dashboard.md` | `📦 Inventory Dashboard` |
 | `orders-dashboard.md` | `📊 Orders Dashboard` |
 | `home.md` | `🏠 Home` |

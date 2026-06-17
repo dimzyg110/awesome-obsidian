@@ -9,6 +9,7 @@ tags: [moc]
 - [[🏠 Home]] — command center (embeds the work & CRM dashboards)
 - [[🏠 Dashboard]] — tasks & projects
 - [[👥 CRM Dashboard]] — people & companies
+- [[📒 Directory]] — A–Z suppliers, clients & people
 - [[📦 Inventory Dashboard]] — stock, POs, batches, movements
 - [[📊 Orders Dashboard]] — POs, sales orders & returns by status
 - [[📱 Mobile Home]] — lightweight phone view

@@ -56,6 +56,7 @@ Meta/                  setup checklist (excluded from dashboards)
 🏠 Home.md             command center (embeds the dashboards)
 🏠 Dashboard.md        work dashboard
 👥 CRM Dashboard.md    people & companies
+📒 Directory.md        A–Z suppliers, clients & people
 📦 Inventory Dashboard.md  low stock, POs & by location
 📊 Orders Dashboard.md  POs, sales orders & returns by status
 📱 Mobile Home.md      lightweight phone view
